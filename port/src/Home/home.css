@@ -1,0 +1,18 @@
+.lucy-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lucy-name{
+height: 120px;
+padding: 10px;
+}
+
+.imagesMenus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
