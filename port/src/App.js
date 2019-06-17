@@ -1,15 +1,18 @@
 import React from 'react';
-import {Home} from './Home/Home';
+import {HeaderHome} from './Home/HeaderHome';
 import {Menu} from './Home/Menu';
+import {Nav} from './Home/Nav';
+import {FooterHome} from './Home/FooterHome';
 import './App.css';
 
 function App() {
   return (
-    <div >
-
-      <Home />
+    <section className="home-container">
+      <HeaderHome />
+      <Nav />
       <Menu />
-    </div>
+      <FooterHome />
+    </section>
   );
 }
 
