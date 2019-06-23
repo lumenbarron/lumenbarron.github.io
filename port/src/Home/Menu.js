@@ -13,15 +13,17 @@ export class Menu extends React.Component {
       <section className="menu-container">
         
         <section className="menu-item">
-          <input type="image" className="images-menus" src={pokemon} />
-          <input type="image" className="images-menus" src={foodmap} />
+          <button type="image" className="images-menus images-small" id="pokemon-image" />
+          <button type="image" className="images-menus images-small" id="foodmap-image" />
         </section>
-        <input type="image" className="images-menus" src={ilpiccolo} />
+        <button type="image" className="images-menus images-large" id="il-piccolo-image" />
         <section className="menu-item">
-        <input type="image" className="images-menus" src={sharesmile} />
+        <button type="image" className="images-menus images-high" id="share-image" />
         </section>
       </section>
       </section>
     );
   }
 }
+
+{/* <input type="image" className="images-menus images-large" src={ilpiccolo} /> */}
