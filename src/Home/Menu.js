@@ -8,7 +8,7 @@ import './home.css';
 export class Menu extends React.Component {
   render() {
     return (
-      <section>
+      <section className="menu-all">
       <h3 className="titles">PORTAFOLIO</h3>
       <section className="menu-container">
         
@@ -16,8 +16,9 @@ export class Menu extends React.Component {
           <button type="image" className="images-menus images-small" id="pokemon-image" />
           <button type="image" className="images-menus images-small" id="foodmap-image" />
         </section>
+
         <button type="image" className="images-menus images-large" id="il-piccolo-image" />
-        <section className="menu-item">
+        <section className="">
         <button type="image" className="images-menus images-high" id="share-image" />
         </section>
       </section>
