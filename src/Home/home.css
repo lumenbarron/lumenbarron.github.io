@@ -12,7 +12,7 @@
     justify-content: center;
     font-size: 26px;
     width: 100%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     
     /*Flexbox */
     display: flex;
@@ -23,10 +23,10 @@
 
 .lucy-header{
     /* position: relative; */
-    background-image: url("./Images/banner-home-2.png");
+    background-image: url("./Images/banner-home-3.png");
     background-size: cover;
     width: 100%;
-    height: 582px;
+    height: 485px;
     display: flex;
 }
 
@@ -78,7 +78,7 @@ padding: 10px;
     margin: 20px;
 }
 .menu-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     
     
@@ -118,46 +118,49 @@ padding: 10px;
 }
 
 .images-small{
-    height: 445px; 
-     width: 463px;
-     background: pink
-
+    height: 302px; 
+     width: 450px;
+     border-radius: 20px;
+     /* background: pink; */
 }
 
 .images-large{
-    height: 890px;  
+    height: 640px;
     width: 450px;
-    background: red;
+    border-radius: 20px;
+    /* background: red; */
 }
 
 .images-high{
-    height: 400px;
-    width: 1000px;
-    background: blue;
+    height: 290px;
+    width: 940px;
+    border-radius: 20px;
+    /* background: blue; */
 }
 
-/* #pokemon-image{
-    background-image: url("./Images/pokemon.png");
-} */
 
-/* #foodmap-image{
+#pokemon-image{
+    background-image: url("./Images/POKEMON-HOME.gif");
+} 
+
+#foodmap-image{
     background-image: url('./Images/foodmap.png');
-} */
+}
 
-/* #share-image{
+#share-image{
     background-image: url('./Images/share-smile.png');
-} */
+}
 
-/* #il-piccolo-image{
-    background-image: url('./Images/il-piccolo.png')
-} */
+ #il-piccolo-image{
+    background-image: url('./Images/il-piccolo-gif.gif')
+}
 
 
 
 /*------------FOOTER MENU------------ */
 
 .footer-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: white;
     background: #1B4E59;
     width: 100%;
@@ -232,8 +235,8 @@ padding: 10px;
     }
 
     .lucy-header{
-        height: 350px;
-        max-width: 80%;
+        height: 380px;
+        /* max-width: 80%; */
     }
 
     .lucy-header-text {
@@ -245,20 +248,6 @@ padding: 10px;
         justify-content: space-around;
     }
 
-    .images-small{
-        height: 345px; 
-         width: 363px;
-    }
-    
-    .images-large{
-        height: 690px;  
-        width: 350px;
-    }
-    
-    .images-high{
-        height: 300px;
-        width: 800px;
-    }
 
 }
 
@@ -268,24 +257,78 @@ align-items: center;
 width: 100%;
     }
 
+    #share-image{
+        background-image: url('./Images/share-smile-tablet.png');
+    }
+    
+     #il-piccolo-image{
+        background-image: url('./Images/tablet-il-piccolo-gif.gif')
+    }
+
     .images-large{
-        height: 345px; 
-         width: 363px;
+        height: 302px;
+        width: 450px;
         
     }
     
     .images-high{
-        height: 300px;
-        width: 500px;
+        height: 302px;
+        width: 450px;
     }
     
 }
 
 @media screen and (max-width: 460px) {
-    
-    .images-high{
-        height: 345px; 
-        width: 363px;
+    .lucy-header{
+        background-image: url("./Images/banner.jpg");
+        background-size: 100%;
+        height: 485px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+    .images-menus{
+        max-width: 80%;
+    }
+
+    .lucy-header-text{
+        padding-left: 0px;
+        padding-top: 280px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .images-small{
+        height: 200px; 
+        width: 300px;
+        background-size: 100%
     }
     
+    .images-large{
+        height: 200px; 
+        width: 300px;
+        background-size: 100%
+    }
+    
+    .images-high{
+        height: 200px; 
+        width: 300px;
+        background-size: 100%
+    }
+
+    /* #pokemon-image{
+        background-image: url("./Images/pokemon-mobile-gif.gif");
+    } 
+    
+    #foodmap-image{
+        background-size: 100%;
+    }
+    
+    #share-image{
+        background-image: url('./Images/share-smile.png');
+    }
+    
+     #il-piccolo-image{
+        background-image: url('./Images/il-piccolo-gif.gif')
+    } */
 }

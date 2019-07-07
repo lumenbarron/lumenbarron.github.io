@@ -8,7 +8,7 @@ export class Nav extends React.Component{
     return (
         <header className="header-nav">
             <section>
-                <input type="image" className="images-menus" src={lucylogo} />
+                <input type="image" alt="image" className="images-menus" src={lucylogo} />
             </section>
             <nav>
             <a className="header-nav-a" target="_blank"> PORTAFOLIO </a>

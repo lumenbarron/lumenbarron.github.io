@@ -1,7 +1,5 @@
 import React from 'react';
 import lucyName from './Images/lucyName.png';
-import bannerHome from './Images/bannerHome.png';
-import bannerHome2 from './Images/banner-home-2.png'
 import './home.css';
 
 export class HeaderHome extends React.Component {

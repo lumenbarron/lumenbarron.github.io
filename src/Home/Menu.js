@@ -1,8 +1,4 @@
 import React from 'react';
-import pokemon from './Images/pokemon.png';
-import foodmap from './Images/foodmap.png';
-import ilpiccolo from './Images/il-piccolo.png';
-import sharesmile from './Images/share-smile.png';
 import './home.css';
 
 export class Menu extends React.Component {
