@@ -9,7 +9,14 @@ export class Menu extends React.Component {
       <section className="menu-container">
         
         <section className="menu-item">
-          <button type="image" className="images-menus images-small" id="pokemon-image" />
+          
+          <button type="image" className="images-menus images-small" id="pokemon-image">
+          <h3 className="images-menus-text" >Pokemon Be.Girl.Ners</h3>
+          </button>
+          
+          
+          
+          
           <button type="image" className="images-menus images-small" id="foodmap-image" />
         </section>
 
