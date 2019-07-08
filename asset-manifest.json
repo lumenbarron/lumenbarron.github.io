@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.516135bb.chunk.css",
-    "main.js": "/static/js/main.80fbed51.chunk.js",
-    "main.js.map": "/static/js/main.80fbed51.chunk.js.map",
+    "main.css": "/static/css/main.e9a056ae.chunk.css",
+    "main.js": "/static/js/main.4b838ad5.chunk.js",
+    "main.js.map": "/static/js/main.4b838ad5.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.c2e19106.chunk.js": "/static/js/2.c2e19106.chunk.js",
-    "static/js/2.c2e19106.chunk.js.map": "/static/js/2.c2e19106.chunk.js.map",
+    "static/js/2.7ffbc2b6.chunk.js": "/static/js/2.7ffbc2b6.chunk.js",
+    "static/js/2.7ffbc2b6.chunk.js.map": "/static/js/2.7ffbc2b6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e64f49530529c6fea923fc75006a6fa5.js": "/precache-manifest.e64f49530529c6fea923fc75006a6fa5.js",
+    "precache-manifest.f76335b588c975b7229af1911e4a63cb.js": "/precache-manifest.f76335b588c975b7229af1911e4a63cb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.516135bb.chunk.css.map": "/static/css/main.516135bb.chunk.css.map",
+    "static/css/main.e9a056ae.chunk.css.map": "/static/css/main.e9a056ae.chunk.css.map",
     "static/media/home.css": "/static/media/tablet-il-piccolo-gif.4fa4e393.gif",
     "static/media/lucyName.png": "/static/media/lucyName.d290808a.png"
   }
