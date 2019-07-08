@@ -10,7 +10,7 @@
 .lucy-header-container{
     align-items: center;
     justify-content: center;
-    font-size: 26px;
+    font-size: 24px;
     width: 100%;
     padding-top: 80px;
     /* border: 1px black solid; */
@@ -27,7 +27,7 @@
     background-image: url("./Images/banner-home-3.png");
     background-size: cover;
     width: 80%;
-    height: 485px;
+    height: 350px;
     display: flex;
 }
 
