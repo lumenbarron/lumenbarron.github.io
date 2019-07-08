@@ -23,18 +23,18 @@ export class FooterHome extends React.Component{
           
             <section className="logo-container">
 
-                <a href="https://www.google.com/gmail/" target="_blank" className="logos-home">
-                  <img type="image"  src={googlelogo} ></img>
+                <a href="https://www.google.com/gmail/" target="_blank" rel="noopener noreferrer" className="logos-home">
+                  <img alt="google" type="image"  src={googlelogo} ></img>
                   <p className="text-logo-footer">lucymendezbarron@gmail.com</p>
                 </a>
 
-                <a href="https://github.com/lumenbarron" target="_blank" className="logos-home">
-                  <img type="image"  src={githublogo} ></img>
+                <a href="https://github.com/lumenbarron" target="_blank" rel="noopener noreferrer" className="logos-home">
+                  <img alt="github" type="image"  src={githublogo} ></img>
                   <p className="text-logo-footer">Github : lumenbarron</p>
                 </a>
 
-                <a href="https://www.linkedin.com/in/luceromendez/" target="_blank" className="logos-home">
-                  <img type="image"  src={linkedinlogo} ></img>
+                <a href="https://www.linkedin.com/in/luceromendez/" target="_blank" rel="noopener noreferrer" className="logos-home">
+                  <img alt="linkedin" type="image"  src={linkedinlogo} ></img>
                   <p className="text-logo-footer">Linkedin : Lucero Méndez Barrón</p>
                 </a>
               
@@ -52,7 +52,7 @@ export class FooterHome extends React.Component{
                 Espero tener pronto noticias tuyas! Con cariño:
               </p>
               
-              <img type="image"  src={lucylogo}></img>
+              <img alt="lucy" type="image"  src={lucylogo}></img>
             </section>
         </footer>
     );

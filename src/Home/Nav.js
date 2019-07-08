@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import lucylogo from './Images/lucy-name-logo.png'
 import lucyName from './Images/lucyName.png';
 import './home.css';
 
