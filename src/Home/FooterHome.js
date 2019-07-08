@@ -8,7 +8,7 @@ import './home.css';
 export class FooterHome extends React.Component{
   render (){
     return (
-        <footer className="footer-container">
+        <footer id="contact" className="footer-container">
           
             <h3 className="titles">CONTACTAME</h3>
            

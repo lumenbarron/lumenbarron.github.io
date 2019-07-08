@@ -13,9 +13,10 @@ export class Nav extends React.Component{
             <img src={lucyName} className="lucy-name" alt="lucyname" />
             </section>
             <nav>
-            <a className="header-nav-a" target="_blank"> PORTAFOLIO </a>
-            <a className="header-nav-a" target="_blank"> ACERCA DE... </a>
-            <a className="header-nav-a" target="_blank"> CONTACTAME </a>
+            <a className="header-nav-a"  href="#portafolio" > PORTAFOLIO </a>
+            
+            <a className="header-nav-a" href="" target="_blank"> ACERCA DE... </a>
+            <a className="header-nav-a"  href="#contact"> CONTACTAME </a>
             {/* <Link to='/waiter' className="" > PORTAFOLIO </Link>
             <Link to='/waiter' className="" > ACERCA DE... </Link>
             <Link to='/waiter' className="" > CONTACTAME </Link> */}

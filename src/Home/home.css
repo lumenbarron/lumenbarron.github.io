@@ -1,5 +1,5 @@
 .home-container{
-    width:80%;
+    width:100%;
     margin:auto;
  
      /*Flexbox */
@@ -67,6 +67,7 @@ padding: 10px;
 .header-nav-a{
     padding: 7px;
     border-right: 1px black solid;
+    text-decoration: none;
     /*Flexbox */
 
     
@@ -133,6 +134,7 @@ padding: 10px;
 
 .images-menus-text {
     position: relative;
+    font-size: 25px;
     top: -10px;
     left: -10px;
     border-radius: 20px;
@@ -149,13 +151,18 @@ padding: 10px;
 .images-small:hover .images-menus-text{
     /* text-align:justify; */
     opacity: 0.7;
-
 }
+
 .images-large{
     height: 640px;
     width: 450px;
     border-radius: 20px;
     /* background: red; */
+}
+
+.images-large:hover .images-menus-text{
+    /* text-align:justify; */
+    opacity: 0.7;
 }
 
 .images-high{
@@ -165,6 +172,10 @@ padding: 10px;
     /* background: blue; */
 }
 
+.images-high:hover .images-menus-text{
+    /* text-align:justify; */
+    opacity: 0.7;
+}
 
 #pokemon-image{
     background-image: url("./Images/POKEMON-HOME.gif");
@@ -277,6 +288,7 @@ padding: 10px;
     /*------------NAV------------ */
     .header-nav{
         justify-content: space-around;
+        font-size: 15px;
     }
 
 
@@ -310,6 +322,10 @@ width: 100%;
 }
 
 @media screen and (max-width: 460px) {
+    .lucy-header-container{
+        padding-top: 110px;
+    }
+
     .lucy-header{
         background-image: url("./Images/banner.jpg");
         background-size: 100%;
@@ -330,18 +346,21 @@ width: 100%;
     }
 
     .images-small{
+        
         height: 200px; 
         width: 300px;
-        background-size: 100%
+        background-size: 110%
     }
     
     .images-large{
+       
         height: 200px; 
         width: 300px;
         background-size: 100%
     }
     
     .images-high{
+        
         height: 200px; 
         width: 300px;
         background-size: 100%
@@ -349,23 +368,8 @@ width: 100%;
 
     .images-menus-text {
         height: 200px;
-        width: 300px;
+        width: 270px;
         display: flex;
     }
 
-    /* #pokemon-image{
-        background-image: url("./Images/pokemon-mobile-gif.gif");
-    } 
-    
-    #foodmap-image{
-        background-size: 100%;
-    }
-    
-    #share-image{
-        background-image: url('./Images/share-smile.png');
-    }
-    
-     #il-piccolo-image{
-        background-image: url('./Images/il-piccolo-gif.gif')
-    } */
 }
