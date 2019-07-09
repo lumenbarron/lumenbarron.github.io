@@ -5,10 +5,11 @@ export class HeaderHome extends React.Component {
   render() {
     return (
 
-      <header className="lucy-header-container">
+      <header id="home" className="lucy-header-container">
         <section className="lucy-header">
           <section className="lucy-header-text">
             <h2>Hola! </h2>
+            <br/>
             <p >Me encanta verte por aquí. Me presento, mi nombre es Lucy,
           soy desarrolladora front end y diseñadora.
           Me encanta la tecnología y crear productos
