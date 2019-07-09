@@ -10,11 +10,12 @@ export class HeaderHome extends React.Component {
           <section className="lucy-header-text">
             <h2>Hola! </h2>
             <br/>
-            <p >Me encanta verte por aquí. Me presento, mi nombre es Lucy,
-          soy desarrolladora front end y diseñadora.
+            <p >Es un gusto verte por aquí. Me presento, mi nombre es Lucy y
+          soy desarrolladora front end y diseñadora industrial.
           Me encanta la tecnología y crear productos
           que mejoren la vida de las personas a través
-           de ella</p>
+           de ella.</p>
+           {/* <p>¿Quieres saber porque eso es una suma poderosa?</p> */}
           </section>
         </section>
       </header>
