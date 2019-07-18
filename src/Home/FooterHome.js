@@ -1,9 +1,9 @@
-import React from 'react';
-import googlelogo from './Images/google-logo.png';
-import githublogo from './Images/github-logo.png';
-import linkedinlogo from './Images/linkedin-logo.png';
-import lucylogo from './Images/lucy-logo-white.png';
-import './home.css';
+import React from "react";
+import googlelogo from "./Images/google-logo.png";
+import githublogo from "./Images/github-logo.png";
+import linkedinlogo from "./Images/linkedin-logo.png";
+import lucylogo from "./Images/lucy-logo-white.png";
+import "./home.css";
 
 export class FooterHome extends React.Component {
   render() {
@@ -22,13 +22,13 @@ export class FooterHome extends React.Component {
 
         <section className="logo-container">
           <a
-            href="https://www.google.com/gmail/"
+            href="mailto:ldi.lucy.mendez@gmail.com?Subject=Trabajemos%20en%20juntos!"
             target="_blank"
             rel="noopener noreferrer"
             className="logos-home"
           >
             <img alt="google" type="image" src={googlelogo} />
-            <p className="text-logo-footer">lucymendezbarron@gmail.com</p>
+            <p className="text-logo-footer">ldi.lucy.mendez@gmail.com</p>
           </a>
 
           <a
@@ -59,7 +59,7 @@ export class FooterHome extends React.Component {
             rel="noopener noreferrer"
             className="button-cv"
           >
-            Descarga mi CV
+            Curriculum Vitae
           </a>
         </section>
 

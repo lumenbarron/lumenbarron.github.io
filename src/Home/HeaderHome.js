@@ -4,7 +4,6 @@ import './home.css';
 export class HeaderHome extends React.Component {
   render() {
     return (
-
       <header id="home" className="lucy-header-container">
         <section className="lucy-header">
           <section className="lucy-header-text">
@@ -15,11 +14,9 @@ export class HeaderHome extends React.Component {
           Me encanta la tecnología y crear productos
           que mejoren la vida de las personas a través
            de ella.</p>
-           {/* <p>¿Quieres saber porque eso es una suma poderosa?</p> */}
           </section>
         </section>
       </header>
-
     );
   }
 }
