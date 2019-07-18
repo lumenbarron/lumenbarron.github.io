@@ -1,8 +1,7 @@
 import React from 'react';
 import './home.css';
 
-const ImagesButton = props => {
-  return (
+const ImagesButton = props => (
     <button
       type="image"
       className={props.sizeImage}
@@ -13,7 +12,7 @@ const ImagesButton = props => {
         <h4>{props.description}</h4>
         <br />
         <a
-          href={props.referencia}
+          href={props.reference}
           target="_blank"
           className="images-menu-links"
           rel="noopener noreferrer"
@@ -23,6 +22,5 @@ const ImagesButton = props => {
       </section>
     </button>
   );
-};
 
 export default ImagesButton

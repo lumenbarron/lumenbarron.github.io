@@ -16,7 +16,7 @@ export class Menu extends React.Component {
               title="Pokemon Be.Girl.Ners"
               description="Web app para principiantes en el mundo Pokemon en donde
             podrás conocer información a partir del tipo."
-              referencia="https://lumenbarron.github.io/GDL002-data-lovers/src/index.html"
+              reference="https://lumenbarron.github.io/GDL002-data-lovers/src/index.html"
             />
 
             <ImagesButton
@@ -26,7 +26,7 @@ export class Menu extends React.Component {
               title="Foodmap"
               description="Web app responsive que busca y filtra los mejores
             restaurantes de Guadalajara cercanos de tu ubicación."
-              referencia="https://lumenbarron.github.io/gdl-open-house/"
+              reference="https://lumenbarron.github.io/gdl-open-house/"
             />
           </section>
 
@@ -37,7 +37,7 @@ export class Menu extends React.Component {
             title="Il Piccolo"
             description="Web app para tablet en donde los meseros pueden anotar sus
             pedidos y enviarlos en tiempo real a una base de datos."
-            referencia="https://lumenbarron.github.io/GDL002-burger-queen/"
+            reference="https://lumenbarron.github.io/GDL002-burger-queen/"
           />
 
             <ImagesButton
@@ -47,7 +47,7 @@ export class Menu extends React.Component {
               title="Share a Smile"
               description="Red social web app versión móvil enfocada en conectar
             madres que quieran vender, comprar o donar artículos infantiles."
-              referencia="https://karlyvall.github.io/GDL002-social-network/public/#access-screen"
+              reference="https://karlyvall.github.io/GDL002-social-network/public/#access-screen"
             />
         </section>
       </section>
