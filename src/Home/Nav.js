@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 import lucyName from './Images/lucyName.png';
 import './home.css';
 
@@ -7,22 +7,25 @@ export class Nav extends React.Component {
   render() {
     return (
       <header className="header-nav">
-        <section>
+        {/* <section>
           <img src={lucyName} className="lucy-name" alt="lucyname" />
-        </section>
+        </section> */}
+
+        <a id='logo-lucy' href="#home" />
+
+          
         <nav>
           <a className="header-nav-a" href="#portafolio">
             PORTAFOLIO
           </a>
-          <Link to='/know-me' className="header-nav-a"> ACERCA DE... </Link>
  
-          {/* <a className="header-nav-a" href="#" target="_blank">
+          <a className="header-nav-a" href="#knom-me">
             ACERCA DE...
-          </a> */}
-          <Link to='/contact' href="#contact" className="header-nav-a"> CONTACT... </Link>
-          {/* <a className="header-nav-a" href="#contact">
+          </a> 
+          
+          <a className="header-nav-a" href="#contact">
             CONTACTAME
-          </a> */}
+          </a>
         </nav>
       </header>
     );

@@ -4,7 +4,7 @@ import './home.css';
 export class KnowMe extends React.Component {
   render() {
     return (
-      <header id="home" className="lucy-header-container">
+      <header id="knom-me" className="lucy-header-container">
         <section className="lucy-header">
           <section className="lucy-header-text">
             <h2>Hola! </h2>
