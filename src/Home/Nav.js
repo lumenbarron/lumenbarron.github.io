@@ -14,14 +14,15 @@ export class Nav extends React.Component {
           <a className="header-nav-a" href="#portafolio">
             PORTAFOLIO
           </a>
-          <Link to='/know-me' className="header-nav-a" target="_blank"> ACERCA DE... </Link>
+          <Link to='/know-me' className="header-nav-a"> ACERCA DE... </Link>
  
           {/* <a className="header-nav-a" href="#" target="_blank">
             ACERCA DE...
           </a> */}
-          <a className="header-nav-a" href="#contact">
+          <Link to='/contact' href="#contact" className="header-nav-a"> CONTACT... </Link>
+          {/* <a className="header-nav-a" href="#contact">
             CONTACTAME
-          </a>
+          </a> */}
         </nav>
       </header>
     );
