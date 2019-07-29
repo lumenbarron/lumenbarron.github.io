@@ -5,87 +5,7 @@
   display: flex;
   flex-flow: row wrap;
 }
-/*------------HEADER------------ */
-.lucy-header-container {
-  /* align-items: center; */
-  justify-content: center;
-  font-size: 24px;
-  width: 100%;
-  /* padding-top: 80px; */
-  /*Flexbox */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border: 1px solid black;
-  background: #F4B4A0;
-  height: 32rem;
-}
 
-#lucyBanner{
-  background-image: url("./Images/il-piccolo.png");
-  background-size: cover;
-  width: 50%;
-  height: 100%;
-}
-
-.lucy-header {
-  /* position: relative; */
-  width: 50%;
-  height: 100%;
-  display: flex;
-  border: 1px solid blue;
-}
-
-.lucy-header-text {
-  width: 50vw;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-  padding-top: 100px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.lucy-name {
-  height:  5rem;
-  padding: .5rem;
-}
-
-/*------------NAV------------ */
-#logo-lucy {
-  background-image: url("./Images/lucyName.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 4rem;
-  padding: .5rem;
-  width: 16rem;
-  margin-top: 1rem;
-}
-
-.header-nav {
-  width: 100%;
-  font-size: 1rem;
-  /*Flexbox */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: fixed;
-  background-color: white;
-  z-index: 1;
-  border: 1px solid black
-}
-
-.header-nav-a {
-  padding: 7px;
-  border-right: 1px black solid;
-  text-decoration: none;
-  color: inherit;
-}
 /*------------MENUS------------ */
 .menu-all {
   display: flex;
@@ -191,19 +111,19 @@
 }
 
 #pokemon-image {
-  background-image: url("./Images/POKEMON-HOME.gif");
+  background-image: url("../Images/POKEMON-HOME.gif");
 }
 
 #foodmap-image {
-  background-image: url("./Images/foodmap.png");
+  background-image: url("../Images/foodmap.png");
 }
 
 #share-image {
-  background-image: url("./Images/share-smile.png");
+  background-image: url("../Images/share-smile.png");
 }
 
 #il-piccolo-image {
-  background-image: url("./Images/il-piccolo-gif.gif");
+  background-image: url("../Images/il-piccolo-gif.gif");
 }
 /*------------FOOTER MENU------------ */
 
@@ -264,7 +184,7 @@
 
 @media screen and (max-width: 1300px) {
   .lucy-header-container {
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 
   /*------------HEADER------------ */
@@ -278,7 +198,7 @@
   }
 
   .lucy-header {
-    height: 380px;
+    /* height: 380px; */
     /* max-width: 80%; */
   }
 
@@ -301,11 +221,11 @@
   }
 
   #share-image {
-    background-image: url("./Images/share-smile-tablet.png");
+    background-image: url("../Images/share-smile-tablet.png");
   }
 
   #il-piccolo-image {
-    background-image: url("./Images/tablet-il-piccolo-gif.gif");
+    background-image: url("../Images/tablet-il-piccolo-gif.gif");
   }
 
   .images-large {
@@ -325,7 +245,7 @@
   }
 
   .lucy-header {
-    background-image: url("./Images/banner.jpg");
+    background-image: url("../Images/banner.jpg");
     background-size: 100%;
     height: 435px;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import './styles/home.css';
 import ImagesButton from './ImagesButton'
 
 export class Menu extends React.Component {

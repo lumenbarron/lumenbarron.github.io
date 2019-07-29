@@ -3,7 +3,7 @@ import googlelogo from "./Images/google-logo.png";
 import githublogo from "./Images/github-logo.png";
 import linkedinlogo from "./Images/linkedin-logo.png";
 import lucylogo from "./Images/lucy-logo-white.png";
-import "./home.css";
+import "./styles/home.css";
 
 export class FooterHome extends React.Component {
   render() {

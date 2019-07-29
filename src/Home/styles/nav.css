@@ -1,0 +1,32 @@
+
+/*------------NAV------------ */
+#logo-lucy {
+    background-image: url("../Images/lucyName.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 3.2rem;
+    width: 14.5rem;
+    margin-top: 1rem;
+  }
+  
+  .header-nav {
+    width: 100%;
+    font-size: 1rem;
+    /*Flexbox */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid black
+  }
+  
+  .header-nav-a {
+    padding: 7px;
+    border-right: 1px black solid;
+    text-decoration: none;
+    color: inherit;
+  }

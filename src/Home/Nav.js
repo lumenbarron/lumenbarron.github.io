@@ -1,7 +1,7 @@
 import React from 'react';
 //import {Link} from 'react-router-dom';
-import lucyName from './Images/lucyName.png';
-import './home.css';
+//import lucyName from './Images/lucyName.png';
+import './styles/nav.css';
 
 export class Nav extends React.Component {
   render() {
@@ -12,8 +12,6 @@ export class Nav extends React.Component {
         </section> */}
 
         <a id='logo-lucy' href="#home" />
-
-          
         <nav>
           <a className="header-nav-a" href="#portafolio">
             PORTAFOLIO
