@@ -1,18 +1,17 @@
 import React from 'react';
-import {HeaderHome} from './Home/HeaderHome';
-import {Menu} from './Home/Menu';
-import {Nav} from './Home/Nav';
-import {FooterHome} from './Home/FooterHome';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {Home} from './Home/Home';
+import {KnowMe} from './Home/KnowMe'
 import './App.css';
 
 function App() {
   return (
-    <section className="home-container">
-      <HeaderHome />
-      <Nav />
-      <Menu />
-      <FooterHome />
-    </section>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Switch>
+      <Route exact path="/" component = {Home} />
+      <Route path="/know-me" component = {KnowMe} />
+    </Switch>
+  </BrowserRouter>
   );
 }
 
