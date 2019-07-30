@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d1a0d4e.chunk.css",
-    "main.js": "/static/js/main.c41ade94.chunk.js",
-    "main.js.map": "/static/js/main.c41ade94.chunk.js.map",
+    "main.css": "/static/css/main.31045c5f.chunk.css",
+    "main.js": "/static/js/main.cf32e6fc.chunk.js",
+    "main.js.map": "/static/js/main.cf32e6fc.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.7ffbc2b6.chunk.js": "/static/js/2.7ffbc2b6.chunk.js",
-    "static/js/2.7ffbc2b6.chunk.js.map": "/static/js/2.7ffbc2b6.chunk.js.map",
+    "static/js/2.6296308c.chunk.js": "/static/js/2.6296308c.chunk.js",
+    "static/js/2.6296308c.chunk.js.map": "/static/js/2.6296308c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.560c4dab3a04de7cae5bab4e72409335.js": "/precache-manifest.560c4dab3a04de7cae5bab4e72409335.js",
+    "precache-manifest.c38cd708368d2d55333c4b2c6e268c5d.js": "/precache-manifest.c38cd708368d2d55333c4b2c6e268c5d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5d1a0d4e.chunk.css.map": "/static/css/main.5d1a0d4e.chunk.css.map",
+    "static/css/main.31045c5f.chunk.css.map": "/static/css/main.31045c5f.chunk.css.map",
     "static/media/home.css": "/static/media/tablet-il-piccolo-gif.4fa4e393.gif",
-    "static/media/lucyName.png": "/static/media/lucyName.39b1da16.png"
+    "static/media/projects.css": "/static/media/share-smile-home.5c3179e0.png",
+    "static/media/header.css": "/static/media/header-lucy.fc50cc40.png",
+    "static/media/nav.css": "/static/media/lucyName.39b1da16.png"
   }
 }
