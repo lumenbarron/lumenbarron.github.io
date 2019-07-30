@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b676ce792b3087a94ccb8b9166abccba",
+    "revision": "e7420fcb416e0395de5c084dbc23329c",
     "url": "/index.html"
   },
   {
-    "revision": "6371941b1ed59762fff0",
-    "url": "/static/css/main.31045c5f.chunk.css"
+    "revision": "656497feba63893e1246",
+    "url": "/static/css/main.74efe69e.chunk.css"
   },
   {
-    "revision": "30d772f406668a7544c4",
-    "url": "/static/js/2.6296308c.chunk.js"
+    "revision": "068ab4376127669b7269",
+    "url": "/static/js/2.b500bd96.chunk.js"
   },
   {
-    "revision": "6371941b1ed59762fff0",
-    "url": "/static/js/main.b8a104fb.chunk.js"
+    "revision": "656497feba63893e1246",
+    "url": "/static/js/main.11ec4c3b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
-  },
-  {
-    "revision": "3e6ef6046d96073a96b955212e7d5906",
-    "url": "/static/media/banner.3e6ef604.jpg"
   },
   {
     "revision": "71ce40b60eaef3df073ea5e128b0fe34",
@@ -50,9 +46,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5c3179e0a7a859d78fbc85d19d743bed",
     "url": "/static/media/share-smile-home.5c3179e0.png"
-  },
-  {
-    "revision": "4fa4e393216e7e8ca0f0857711f0f906",
-    "url": "/static/media/tablet-il-piccolo-gif.4fa4e393.gif"
   }
 ]);
