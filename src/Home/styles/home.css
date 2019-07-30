@@ -6,25 +6,6 @@
   flex-flow: row wrap;
 }
 
-/*------------MENUS------------ */
-.menu-all {
-  display: flex;
-  flex-wrap: wrap;
-}
-.titles {
-  text-align: center;
-  width: 100%;
-  margin: 20px;
-  padding-top: 20px;
-}
-.menu-container {
-  width: 100%;
-  /*Flexbox */
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
 
 .menu-item {
   display: flex;
@@ -102,17 +83,17 @@
   opacity: 0.7;
 }
 
-.images-menu-links {
+/* .images-menu-links {
   padding: 7px;
   border: 1px black solid;
   text-decoration: none;
   font-size: 20px;
   color: inherit;
-}
+} */
 
-#pokemon-image {
+/* #pokemon-image {
   background-image: url("../Images/POKEMON-HOME.gif");
-}
+} */
 
 #foodmap-image {
   background-image: url("../Images/foodmap.png");

@@ -1,0 +1,77 @@
+/*------------PROJECTS------------ */
+.project-all {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.titles {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  padding-top: 20px;
+}
+.project-container {
+  width: 100%;
+  /*Flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container-info {
+  font-size: 0.9rem;
+  height: 26rem;
+  width: 100%;
+  /*Flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+
+.project-images {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /* border: 1px solid blue; */
+}
+
+#pokemon-image {
+  background-image: url("../Images/pokemon-home-gif.gif");
+  /* background-size: cover; */
+  width: 100%;
+  height: 26rem;
+}
+
+.project-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.project-text-titles {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+  width: 55%;
+}
+
+.project-text-info {
+  padding: 1rem;
+}
+
+.images-menu-links {
+  padding: 7px;
+  border: 1px black solid;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
