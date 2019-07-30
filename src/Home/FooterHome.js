@@ -1,22 +1,21 @@
 import React from "react";
-import googlelogo from "./Images/google-logo.png";
-import githublogo from "./Images/github-logo.png";
-import linkedinlogo from "./Images/linkedin-logo.png";
-import lucylogo from "./Images/lucy-logo-white.png";
-import "./styles/home.css";
+import googlelogo from "./Images/google-logo-flat.png";
+import githublogo from "./Images/github-logo-flat.png";
+import linkedinlogo from "./Images/linkedin-logo-flat.png";
+import lucylogo from "./Images/lucy-logo-black-2.png";
+import "./styles/footer.css";
 
 export class FooterHome extends React.Component {
   render() {
     return (
       <footer id="contact" className="footer-container">
-        <h3 className="titles">CONTACTAME</h3>
+        <h3 className="titles">HIRE ME!</h3>
 
         <section className="about-footer">
-          <p className="title-footer">Sería un gusto trabajar juntos!</p>
+          <p className="title-footer">It would be a pleasure to work together!</p>
           <p>
-            ¿Quieres conocer más acerca de mis proyectos, o mejor aún,
-            coolaborar en tus proyectos? Escríbeme por cualquiera de estos
-            medios:
+          Do you want to know more about my projects or better, collaborate on your projects? 
+          Write me!
           </p>
         </section>
 
@@ -27,7 +26,7 @@ export class FooterHome extends React.Component {
             rel="noopener noreferrer"
             className="logos-home"
           >
-            <img alt="google" type="image" src={googlelogo} />
+            <img alt="google" type="image" className="logo-footer" src={googlelogo} />
             <p className="text-logo-footer">ldi.lucy.mendez@gmail.com</p>
           </a>
 
@@ -37,7 +36,7 @@ export class FooterHome extends React.Component {
             rel="noopener noreferrer"
             className="logos-home"
           >
-            <img alt="github" type="image" src={githublogo} />
+            <img alt="github" type="image" className="logo-footer-git" src={githublogo} />
             <p className="text-logo-footer">Github : lumenbarron</p>
           </a>
 
@@ -47,7 +46,7 @@ export class FooterHome extends React.Component {
             rel="noopener noreferrer"
             className="logos-home"
           >
-            <img alt="linkedin" type="image" src={linkedinlogo} />
+            <img alt="linkedin" type="image" className="logo-footer" src={linkedinlogo} />
             <p className="text-logo-footer">Linkedin : Lucero Méndez Barrón</p>
           </a>
         </section>
@@ -64,9 +63,9 @@ export class FooterHome extends React.Component {
         </section>
 
         <section className="sign-footer">
-          <p>Espero tener pronto noticias tuyas! Con cariño:</p>
+          <p>I hope to hear from you soon! Lovely :</p>
 
-          <img alt="lucy" type="image" src={lucylogo} />
+          <img alt="lucy" type="image" className="logo-lucy-footer" src={lucylogo} />
         </section>
       </footer>
     );
