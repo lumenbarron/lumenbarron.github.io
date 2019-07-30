@@ -99,9 +99,9 @@
   background-image: url("../Images/foodmap.png");
 }
 
-#share-image {
-  background-image: url("../Images/share-smile.png");
-}
+/* #share-image {
+  background-image: url("../Images/share-smile");
+} */
 
 #il-piccolo-image {
   background-image: url("../Images/il-piccolo-gif.gif");
@@ -201,9 +201,9 @@
     width: 100%;
   }
 
-  #share-image {
+  /* #share-image {
     background-image: url("../Images/share-smile-tablet.png");
-  }
+  } */
 
   #il-piccolo-image {
     background-image: url("../Images/tablet-il-piccolo-gif.gif");

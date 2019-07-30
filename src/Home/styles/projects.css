@@ -10,6 +10,10 @@
   margin: 20px;
   padding-top: 20px;
 }
+
+/* #scroll{
+    background-image: url("../Images/scroll.png");
+} */
 .project-container {
   width: 100%;
   /*Flexbox */
@@ -21,7 +25,7 @@
 
 .project-container-info {
   font-size: 0.9rem;
-  height: 26rem;
+  height: 22rem;
   width: 100%;
   /*Flexbox */
   display: flex;
@@ -29,18 +33,15 @@
   /* border: 1px solid black; */
 }
 
+.share-smile {
+  background: #e6edf0;
+}
+
 .project-images {
   width: 50%;
   height: 100%;
   display: flex;
   /* border: 1px solid blue; */
-}
-
-#pokemon-image {
-  background-image: url("../Images/pokemon-home-gif.gif");
-  /* background-size: cover; */
-  width: 100%;
-  height: 26rem;
 }
 
 .project-text {
@@ -75,3 +76,25 @@
   display: flex;
   justify-content: center;
 }
+
+#pokemon-image {
+  background-image: url("../Images/pokemon-home-gif.gif");
+  background-size: cover;
+  width: 100%;
+  height: 22rem;
+}
+
+#share-image {
+  background-image: url("../Images/share-smile-home.png");
+  width: 100%;
+  height: 22rem;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+#bikely-image {
+    background-image: url("../Images/bikely-home.gif");
+    background-size: cover;
+    width: 100%;
+    height: 22rem;
+  }

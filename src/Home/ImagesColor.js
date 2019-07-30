@@ -1,12 +1,8 @@
 import React from 'react';
 import './styles/projects.css';
 
-const ImagesWhite = props => (
-  <section className="project-container-info">
-    <section className="project-images">
-      <section id={props.idBtn} />
-    </section>
-
+const ImagesColor = props => (
+  <section className="project-container-info share-smile">
     <section className="project-text">
       <p className="project-text-titles">{props.titleProject}</p>
       <p className="project-text-info">
@@ -25,7 +21,11 @@ const ImagesWhite = props => (
         VISIT SITE
       </a>
     </section>
+
+    <section className="project-images">
+      <section id={props.idBtn} />
+    </section>
   </section>
 );
 
-export default ImagesWhite
+export default ImagesColor
