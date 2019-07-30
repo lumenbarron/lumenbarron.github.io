@@ -17,12 +17,12 @@ export class Nav extends React.Component {
             PORTFOLIO
           </a>
  
-          <a className="header-nav-a" href="#knom-me">
+          <a className="header-nav-a" href="#know-me">
             KNOM ME
           </a> 
           
           <a className="header-nav-a" href="#contact">
-            HIRE ME!
+            HIRE ME !
           </a>
         </nav>
       </header>

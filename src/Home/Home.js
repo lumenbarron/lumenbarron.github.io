@@ -13,9 +13,8 @@ export class Home extends React.Component {
       <section className="home-container">
         <Nav />
         <HeaderHome />
-        <Projects />
-        
         <KnowMe />
+        <Projects />
         <FooterHome />
       </section>
     );
