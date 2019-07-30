@@ -23,6 +23,7 @@ export class Projects extends React.Component {
           />
  
             <ImagesColor
+            backgroundColor = "project-container-info share-smile"
             idBtn="share-image"
             titleProject="SHARE A SMILE "
             descriptionProject="What happens with children's items when they grow up? This is a social media web-app focus on
@@ -35,18 +36,28 @@ export class Projects extends React.Component {
             idBtn="bikely-image"
             titleProject="BIKELY"
             descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
-             bike or repair it; Bikely app shows the stores near your location"
+             bike or repair it; Bikely app shows the stores near your location."
             descriptionTech="REACT NATIVE | REACT NAVIGATION | EXPO | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY | UX/UI"
-            reference="https://lumenbarron.github.io/GDL002-data-lovers/src/index.html"
+            reference="https://expo.io/@lumenbarron/example"
           />
 
             <ImagesColor
-            idBtn="share-image"
-            titleProject="SHARE A SMILE "
-            descriptionProject="What happens with children's items when they grow up? This is a social media web-app focus on
-            connecting mothers who want to sell, buy or donate children's items."
-            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS  | ROUTER | SPA | FIREBASE |  SCRUM |KANBAN | GIT | GITHUB | UX/UI"
-            reference="https://karlyvall.github.io/GDL002-social-network/public/#access-screen"
+            backgroundColor = "project-container-info il-piccolo"
+            idBtn="il-piccolo-image"
+            titleProject="IL PICCOLO"
+            descriptionProject="The Italian restaurant “Il Piccolo” needed a web app for its personal, to take the orders and shows in
+            the kitchen to cook it. Also, all the information is saved in a database. "
+            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS | FIRABASE | SCRUM |KANBAN | GIT | GITHUB | UX/UI "
+            reference="https://lumenbarron.github.io/GDL002-burger-queen/"
+          />
+
+            <ImagesWhite
+            idBtn="foodmap-image"
+            titleProject="FOOD MAPS"
+            descriptionProject="Have you ever had arrived in a new city or place and don´t know what are the best and tasty restaurants near?
+             This web app shows you the restaurants and also  GDL´s eating places recommendations."
+            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | API GOOGLE MAPS |KANBAN | GIT | GITHUB | AGILE METHODOLOGY"
+            reference="https://lumenbarron.github.io/gdl-open-house/"
           />
 
         </section>

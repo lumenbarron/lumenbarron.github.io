@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/projects.css';
 
 const ImagesColor = props => (
-  <section className="project-container-info share-smile">
+  <section className={props.backgroundColor}>
     <section className="project-text">
       <p className="project-text-titles">{props.titleProject}</p>
       <p className="project-text-info">
