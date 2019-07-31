@@ -3,7 +3,7 @@ import './styles/know-me.css';
 
 const DevIcons = props => (
     <section className="icon-with-name">
-    <i class={props.icon}/>
+    <i className={props.icon}/>
     <p className="icons-text">{props.iconText}</p>
   </section>
   );

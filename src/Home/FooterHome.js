@@ -53,7 +53,7 @@ export class FooterHome extends React.Component {
 
         <section className="titles">
           <a
-            href="https://drive.google.com/file/d/1cETild1ipKPGQwKwgfVdYuKm-FFpRSKn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1HPhuwBbYPo3P2hV1fEnaEUmZ8q_wNeYD/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="button-cv"
