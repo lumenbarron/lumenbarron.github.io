@@ -5,6 +5,7 @@ import {Projects} from './Projects'
 import {Nav} from './Nav';
 import {KnowMe} from './KnowMe'
 import {FooterHome} from './FooterHome';
+import './styles/home.css';
 
 
 export class Home extends React.Component {

@@ -7,7 +7,8 @@
 .titles {
   text-align: center;
   width: 100%;
-  margin: 20px;
+  margin-top: 20px;
+ 
   /* padding-top: 20px; */
 }
 
@@ -107,7 +108,7 @@
   #il-piccolo-image {
     background-image: url("../Images/il-piccolo.png");
     background-size: cover;
-    width: 100%;
+    width: 90%;
   }
 
   #foodmap-image {

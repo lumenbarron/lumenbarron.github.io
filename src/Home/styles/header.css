@@ -1,8 +1,8 @@
 
 /*------------HEADER------------ */
 .lucy-header-container {
-    justify-content: flex-end;
-    font-size: 24px;
+    /* justify-content: flex-end; */
+    font-size: 1.5rem;
     height: 24rem;
     width: 100%;
     /*Flexbox */
@@ -40,7 +40,7 @@
   }
   
   .text-bold{
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 1rem;
     width: 70%;
   }
