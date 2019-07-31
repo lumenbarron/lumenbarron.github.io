@@ -15,7 +15,7 @@
   
   #lucyBanner{
     background-image: url("../Images/header-lucy.png");
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     height: 100%;
   }
