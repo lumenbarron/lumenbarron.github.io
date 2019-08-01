@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7420fcb416e0395de5c084dbc23329c",
+    "revision": "7fe4f3f097a1d21bfb51f4d3af43124a",
     "url": "/index.html"
   },
   {
-    "revision": "656497feba63893e1246",
-    "url": "/static/css/main.74efe69e.chunk.css"
+    "revision": "be2b2972bba667e79c1c",
+    "url": "/static/css/main.488ebb17.chunk.css"
   },
   {
-    "revision": "068ab4376127669b7269",
-    "url": "/static/js/2.b500bd96.chunk.js"
+    "revision": "edbc720776c32d924779",
+    "url": "/static/js/2.49492a5d.chunk.js"
   },
   {
-    "revision": "656497feba63893e1246",
-    "url": "/static/js/main.11ec4c3b.chunk.js"
+    "revision": "be2b2972bba667e79c1c",
+    "url": "/static/js/main.3b4ac8c0.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/foodmap-gif.0f288f6b.gif"
   },
   {
-    "revision": "fc50cc40bf698403fce12f7010e7bff6",
-    "url": "/static/media/header-lucy.fc50cc40.png"
+    "revision": "8538d47f5aac10389e3246c2501b7847",
+    "url": "/static/media/header-lucy.8538d47f.png"
   },
   {
     "revision": "b1bd463f8ffd99531a33ed2b90b29b26",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39b1da16042a04e351fa3bcee5632266",
     "url": "/static/media/lucyName.39b1da16.png"
+  },
+  {
+    "revision": "210bca28f7c4cdde9e2a27a32a14edb1",
+    "url": "/static/media/mobil-header-lucy.210bca28.png"
   },
   {
     "revision": "da6b07339154f03d5d7d4f174cbe978f",
