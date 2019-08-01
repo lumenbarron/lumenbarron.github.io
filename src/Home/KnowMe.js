@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/know-me.css';
-import DevIcons from './DevIcons'
+import DevIcons from './DevIcons';
+import DevLogo from './DevLogo'
 
 export class KnowMe extends React.Component {
          render() {
@@ -46,6 +47,12 @@ export class KnowMe extends React.Component {
                    iconText="Node JS"
                  />
 
+                <DevLogo 
+                 gral = "icon-with-name logos-icon"
+                 icon="scrum"
+                 iconText="SCRUM"
+                 />
+
                  <DevIcons
                    icon="devicon-git-plain dev-icons"
                    iconText="GIT"
@@ -54,6 +61,12 @@ export class KnowMe extends React.Component {
                  <DevIcons
                    icon="devicon-github-plain dev-icons"
                    iconText="Github"
+                 />
+
+                <DevLogo 
+                 gral = "icon-with-name logos-icon"
+                 icon="figma"
+                 iconText="Figma"
                  />
 
                  <DevIcons
@@ -70,6 +83,14 @@ export class KnowMe extends React.Component {
                    icon="devicon-visualstudio-plain dev-icons"
                    iconText="Visual Studio"
                  />
+
+                 <DevLogo 
+                 gral = "icon-with-name logos-icon"
+                 icon="firebase"
+                 iconText="Firebase"
+                 />
+
+
                </section>
 
                <section className="lucy-know">

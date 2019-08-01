@@ -6,109 +6,7 @@
   flex-flow: row wrap;
 }
 
-
-/* .menu-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.images-menus {
-  padding: 10px;
-  margin: 10px;
-  width: 100%;
-  vertical-align: middle;
-  margin: 20px;
-}
-
-.images-small {
-  height: 302px;
-  width: 450px;
-  border-radius: 20px;
-}
-
-.images-menus-title {
-  padding-bottom: 20px;
-}
-
-.images-menus-text {
-  position: relative;
-  font-size: 16px;
-  top: -10px;
-  left: -10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  opacity: 0;
-  transition: 0.5s ease;
-  background: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-  );
-}
-
-.images-small:hover .images-menus-text {
-  opacity: 0.7;
-}
-
-.images-large {
-  height: 640px;
-  width: 450px;
-  border-radius: 20px;
-}
-
-.images-menus-hover-small {
-  height: 302px;
-  width: 450px;
-}
-
-.images-large:hover .images-menus-text {
-  opacity: 0.7;
-}
-
-.images-high {
-  height: 290px;
-  width: 940px;
-  border-radius: 20px;
-}
-
-.images-high:hover .images-menus-text {
-  opacity: 0.7;
-} */
-
-/* .images-menu-links {
-  padding: 7px;
-  border: 1px black solid;
-  text-decoration: none;
-  font-size: 20px;
-  color: inherit;
-} */
-
-/* #pokemon-image {
-  background-image: url("../Images/POKEMON-HOME.gif");
-} */
-
-/* #foodmap-image {
-  background-image: url("../Images/foodmap.png");
-} */
-
-/* #share-image {
-  background-image: url("../Images/share-smile");
-} */
-
-/* #il-piccolo-image {
-  background-image: url("../Images/il-piccolo-gif.gif");
-} */
-
 @media screen and (max-width: 780px) {
-
   .lucy-header-container {
     font-size: 1rem;
   }
@@ -116,66 +14,72 @@
   .lucy-header {
     width: 50%;
   }
-
 }
 
 @media screen and (max-width: 460px) {
+  #logo-lucy {
+      margin-bottom: .9rem;
+  }
+
   .lucy-header-text {
-    height: 12rem;
+    height: 30%;
     width: 100%;
   }
 
   .lucy-header {
     width: 100%;
-    height: 12rem;
-
-    /* border: 1px solid blue; */
+    height: 70%;
   }
   .lucy-header-container {
     padding-top: 5.6rem;
+    height: 36rem;
   }
 
+  #lucyBanner {
+    background-image: url("../Images/mobil-header-lucy.png");
+  }
 
-   /* .lucy-header {
-    background-image: url("../Images/banner.jpg");
-    background-size: 100%;
-    height: 435px;
+  .project-container-info {
+    height: 36rem;
+  }
+
+  .project-images {
+    width: 100%;
+    height: 40%;
+  }
+
+  .project-text {
+    width: 100%;
+    height: 60%;
+    padding: 0.5rem;
+    justify-content: initial;
+  }
+
+  #pokemon-image {
+    background-size: contain;
+    width: 100%;
+  }
+
+  #bikely-image {
+    background-size: contain;
+    width: 100%;
+  }
+
+  #il-piccolo-image {
+    background-size: contain;
+    width: 100%;
     background-repeat: no-repeat;
-    border-radius: 20px;
   }
 
-  .images-menus {
-    max-width: 80%;
+  #foodmap-image {
+    background-size: contain;
   }
 
-  .lucy-header-text {
-    padding-left: 0px;
-    padding-top: 280px;
-    align-items: center;
-    text-align: center;
+  .project-text-titles {
+    width: 100%;
   }
 
-  .images-small {
-    height: 200px;
-    width: 300px;
-    background-size: 110%;
+  .logo-container {
+    justify-content: initial;
   }
-
-  .images-large {
-    height: 200px;
-    width: 300px;
-    background-size: 100%;
-  }
-
-  .images-high {
-    height: 200px;
-    width: 300px;
-    background-size: 100%;
-  }
-
-  .images-menus-text {
-    height: 200px;
-    width: 270px;
-    display: flex;
-  } */
 }

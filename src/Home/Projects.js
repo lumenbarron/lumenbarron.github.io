@@ -28,7 +28,7 @@ export class Projects extends React.Component {
             titleProject="SHARE A SMILE "
             descriptionProject="What happens with children's items when they grow up? This is a social media web-app focus on
             connecting mothers who want to sell, buy or donate children's items."
-            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS  | ROUTER | SPA | FIREBASE |  SCRUM |KANBAN | GIT | GITHUB | UX/UI"
+            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS  | ROUTER | SPA | FIREBASE |  SCRUM |KANBAN | GIT | GITHUB | UX/UI | FOUNDATION FRAMEWORK"
             reference="https://karlyvall.github.io/GDL002-social-network/public/#access-screen"
           />
 
@@ -47,7 +47,7 @@ export class Projects extends React.Component {
             titleProject="IL PICCOLO"
             descriptionProject="The Italian restaurant “Il Piccolo” needed a web app for its personal, to take the orders and shows in
             the kitchen to cook it. Also, all the information is saved in a database. "
-            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS | FIRABASE | SCRUM |KANBAN | GIT | GITHUB | UX/UI "
+            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS | FIRABASE | SCRUM |KANBAN | GIT | GITHUB | UX/UI | BOOTSTRAP FRAMEWORK"
             reference="https://lumenbarron.github.io/GDL002-burger-queen/"
           />
 

@@ -1,7 +1,4 @@
 .lucy-know {
-    /* width: 50%; */
-    /* width: 100%;
-    height: 100%; */
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -36,4 +33,26 @@ color: #60BEA7;
 .icons-text{
     padding-top: .3rem;
     font-size: .8rem;
+}
+
+.firebase {
+    background-image: url("../Images/firebase-1.png");
+    background-repeat: no-repeat;
+    height: 3rem;;
+}
+
+.logos-icon{
+width: 4.5rem;
+}
+
+.scrum {
+    background-image: url("../Images/scrum.png");
+    background-repeat: no-repeat;
+    height: 3rem;;
+}
+
+.figma {
+    background-image: url("../Images/figma.png");
+    background-repeat: no-repeat;
+    height: 3rem;;
 }

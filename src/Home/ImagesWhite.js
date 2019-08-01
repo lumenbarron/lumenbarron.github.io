@@ -13,8 +13,8 @@ const ImagesWhite = props => (
       {props.descriptionProject}
       </p>
 
-      <p className="project-text-titles">TECHNOLOGIES</p>
-      <p className="project-text-info">{props.descriptionTech}</p>
+      <p className="project-text-titles tech">TECHNOLOGIES</p>
+      <p className="project-text-info tech">{props.descriptionTech}</p>
 
       <a
         href={props.reference}
