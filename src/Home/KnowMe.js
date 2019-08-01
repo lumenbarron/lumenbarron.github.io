@@ -84,11 +84,11 @@ export class KnowMe extends React.Component {
                    iconText="Visual Studio"
                  />
 
-                 <DevLogo 
+                 {/* <DevLogo 
                  gral = "icon-with-name logos-icon"
                  icon="firebase"
                  iconText="Firebase"
-                 />
+                 /> */}
 
 
                </section>
