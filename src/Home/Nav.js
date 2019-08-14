@@ -18,7 +18,7 @@ export class Nav extends React.Component {
           </a>
  
           <a className="header-nav-a" href="#know-me">
-            KNOM ME
+            KNOW ME
           </a> 
           
           <a className="header-nav-a" href="#contact">

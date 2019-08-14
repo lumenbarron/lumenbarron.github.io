@@ -88,7 +88,7 @@
 }
 
 #share-image {
-  background-image: url("../Images/share-smile-home.png");
+  background-image: url("../Images/share-smile.png");
   background-size: cover;
   width: 100%;
   /* background-repeat: no-repeat; */
@@ -111,5 +111,6 @@
 #foodmap-image {
   background-image: url("../Images/foodmap-gif.gif");
   background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
 }

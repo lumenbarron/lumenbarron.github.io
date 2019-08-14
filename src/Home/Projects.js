@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/projects.css';
-import {scroll} from './Images/scroll.png'
-//import ImagesButton from './ImagesButton'
+//import {scroll} from './Images/scroll.png'
 import ImagesWhite from './ImagesWhite'
 import ImagesColor from './ImagesColor'
 
@@ -23,7 +22,7 @@ export class Projects extends React.Component {
           />
  
             <ImagesColor
-            backgroundColor = "project-container-info share-smile"
+            backgroundColor = "project-container-info hide share-smile"
             idBtn="share-image"
             titleProject="SHARE A SMILE "
             descriptionProject="What happens with children's items when they grow up? This is a social media web-app focus on
@@ -42,7 +41,7 @@ export class Projects extends React.Component {
           />
 
             <ImagesColor
-            backgroundColor = "project-container-info il-piccolo"
+            backgroundColor = "project-container-info hide il-piccolo"
             idBtn="il-piccolo-image"
             titleProject="IL PICCOLO"
             descriptionProject="The Italian restaurant “Il Piccolo” needed a web app for its personal, to take the orders and shows in
