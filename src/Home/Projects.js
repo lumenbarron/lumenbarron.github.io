@@ -12,6 +12,16 @@ export class Projects extends React.Component {
           PORTFOLIO <i className="material-icons"></i>
         </h3>
         <section className="project-container">
+        <ImagesColor
+            backgroundColor = "project-container-info hide pixar"
+            idBtn="pixar-image"
+            titleProject="PIXAR EN CORTO"
+            descriptionProject="Do you know that Pixar, besides makes incredible movies, 
+            makes amazing short films? Check out the best collection and inspire your days."
+            descriptionTech="REACT JS | HTML5 | CSS3 | JAVASCRIPT | AXIOS | API REQUEST | SCRUM | GIT | GITHUB | UX/UI | MATERIALIZE FRAMEWORK"
+            reference="https://lumenbarron.github.io/pixar/"
+          />
+
           <ImagesWhite
             idBtn="pokemon-image"
             titleProject="POKEMON BE.GIRL.NERS"
