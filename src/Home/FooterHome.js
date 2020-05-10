@@ -39,7 +39,7 @@ export class FooterHome extends React.Component {
             <img alt="github" type="image" className="logo-footer-git" src={githublogo} />
             <p className="text-logo-footer">Github : lumenbarron</p>
           </a>
-
+          
           <a
             href="https://www.linkedin.com/in/luceromendez/"
             target="_blank"

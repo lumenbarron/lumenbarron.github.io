@@ -21,10 +21,10 @@
       margin-bottom: .9rem;
   }
 
-  .lucy-header-text {
+  /* .lucy-header-text {
     height: 30%;
     width: 100%;
-  }
+  } */
 
   .lucy-header {
     width: 100%;
@@ -33,11 +33,20 @@
   .lucy-header-container {
     padding-top: 5.6rem;
     height: 36rem;
+    background-image: url("../Images/banner-mobile-lucy.jpg");
   }
 
-  #lucyBanner {
-    background-image: url("../Images/mobil-header-lucy.png");
+  .text-bold {
+    font-size: 1.7rem;
   }
+
+  .text-bold-p {
+    font-size: 1.5rem;
+  }
+
+  /* #lucyBanner {
+    
+  } */
 
   .project-container-info {
     height: 36rem;
