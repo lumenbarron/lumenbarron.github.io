@@ -13,7 +13,7 @@ export class HeaderHome extends React.Component {
             {" "}
             "I design and develop
             <Typical
-              steps={[" experiences", 2000, " products", 2000]}
+              steps={[" experiences", 2000, " products", 2000, " projects", 2000]}
               loop={Infinity}
               wrapper="b"
             />
@@ -25,8 +25,11 @@ export class HeaderHome extends React.Component {
               steps={[
                 " make people lifes better” ",
                 2000,
-                " grow your bussiness”",
+                " grow your bussiness sales”",
                 2000,
+                " connect with the digital market”",
+                2000,
+
               ]}
               loop={Infinity}
               wrapper="b"
