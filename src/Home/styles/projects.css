@@ -126,6 +126,13 @@
   width: 100%;
 }
 
+#vitalinea-image {
+  background-image: url("../Images/vitalinea.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
 #il-piccolo-image {
   background-image: url("../Images/il-piccolo.png");
   background-size: cover;

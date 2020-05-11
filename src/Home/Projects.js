@@ -31,32 +31,13 @@ export class Projects extends React.Component {
             reference="https://lumenbarron.github.io/pixar/"
           />
 
-          <ImagesWhite
-            idBtn="pokemon-image"
-            titleProject="POKEMON BE.GIRL.NERS"
-            descriptionProject="If you like Pokemon but you don’t know too much about that,
-            this web app helps you to know information about the pokemon by its type or searching by its name."
-            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | JEST | MOCKA | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY "
-            reference="https://lumenbarron.github.io/GDL002-data-lovers/src/index.html"
-          />
- 
-            <ImagesColor
-            backgroundColor = "project-container-info hide share-smile"
-            idBtn="share-image"
-            titleProject="SHARE A SMILE "
-            descriptionProject="What happens with children's items when they grow up? This is a social media web-app focus on
-            connecting mothers who want to sell, buy or donate children's items."
-            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS  | ROUTER | SPA | FIREBASE |  SCRUM |KANBAN | GIT | GITHUB | UX/UI | FOUNDATION FRAMEWORK"
-            reference="https://karlyvall.github.io/GDL002-social-network/public/#access-screen"
-          />
-
             <ImagesWhite
-            idBtn="bikely-image"
-            titleProject="BIKELY"
-            descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
-             bike or repair it; Bikely app shows the stores near your location."
-            descriptionTech="REACT NATIVE | REACT NAVIGATION | EXPO | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY | UX/UI"
-            reference="https://expo.io/@lumenbarron/example"
+            idBtn="vitalinea-image"
+            titleProject="VITALINEA"
+            descriptionProject="Do you know the best way to take care of your health is through the food? The new Vitalinea yogurt
+             is your best option because it's not only delicious, it's also sugar-free."
+            descriptionTech="REACT JS | HTML5 | CSS3 | WIREFRAME | SCRUM | GIT | GITHUB | UX/UI | BOOTSTRAP FRAMEWORK"
+            reference="https://lumenbarron.github.io/vitalinea-app/"
           />
 
             <ImagesColor
@@ -77,6 +58,36 @@ export class Projects extends React.Component {
             descriptionTech="HTML5 | CSS3 | JAVASCRIPT | API GOOGLE MAPS |KANBAN | GIT | GITHUB | AGILE METHODOLOGY"
             reference="https://lumenbarron.github.io/gdl-open-house/"
           />
+                      
+            <ImagesColor
+            backgroundColor = "project-container-info hide share-smile"
+            idBtn="share-image"
+            titleProject="SHARE A SMILE "
+            descriptionProject="What happens with children's items when they grow up? This is a social media web-app focus on
+            connecting mothers who want to sell, buy or donate children's items."
+            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | REACT JS  | ROUTER | SPA | FIREBASE |  SCRUM |KANBAN | GIT | GITHUB | UX/UI | FOUNDATION FRAMEWORK"
+            reference="https://karlyvall.github.io/GDL002-social-network/public/#access-screen"
+          />
+
+          <ImagesWhite
+            idBtn="pokemon-image"
+            titleProject="POKEMON BE.GIRL.NERS"
+            descriptionProject="If you like Pokemon but you don’t know too much about that,
+            this web app helps you to know information about the pokemon by its type or searching by its name."
+            descriptionTech="HTML5 | CSS3 | JAVASCRIPT | JEST | MOCKA | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY "
+            reference="https://lumenbarron.github.io/GDL002-data-lovers/src/index.html"
+          />
+ 
+            {/* <ImagesWhite
+            idBtn="bikely-image"
+            titleProject="BIKELY"
+            descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
+             bike or repair it; Bikely app shows the stores near your location."
+            descriptionTech="REACT NATIVE | REACT NAVIGATION | EXPO | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY | UX/UI"
+            reference="https://expo.io/@lumenbarron/example"
+          /> */}
+
+
 
         </section>
       </section>
