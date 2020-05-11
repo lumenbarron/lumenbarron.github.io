@@ -89,6 +89,13 @@
   color: white;
 }
 
+#starbucks-image{
+  background-image: url("../Images/starbucks.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 #pixar-image {
   background-image: url("../Images/pixar-3.gif");
   background-size: cover;

@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/header.css";
 import Typical from "react-typical";
-
 export class HeaderHome extends React.Component {
   render() {
     return (

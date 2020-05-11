@@ -12,6 +12,15 @@ export class Projects extends React.Component {
           PORTFOLIO <i className="material-icons"></i>
         </h3>
         <section className="project-container">
+        <ImagesWhite
+            idBtn="starbucks-image"
+            titleProject="STARBUCKS STORE"
+            descriptionProject="If you, like me, are a Starbucks fan, you have to know the coolest Starbucks Stores around the world,
+             and the best, if you know any, add it and let us know."
+            descriptionTech="REACT JS | MONGO DB | EXPRESS | NODE JS | JAVASCRIPT | AXIOS | API REQUEST | SCRUM | GIT | HEROKU | UX/UI | MATERIALIZE FRAMEWORK"
+            reference="https://starbucks-store.herokuapp.com/"
+          />
+
         <ImagesColor
             backgroundColor = "project-container-info hide pixar"
             idBtn="pixar-image"
