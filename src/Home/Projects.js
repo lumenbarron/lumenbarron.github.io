@@ -78,19 +78,17 @@ export class Projects extends React.Component {
             reference="https://lumenbarron.github.io/GDL002-data-lovers/src/index.html"
           />
  
-            {/* <ImagesWhite
-            idBtn="bikely-image"
-            titleProject="BIKELY"
-            descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
-             bike or repair it; Bikely app shows the stores near your location."
-            descriptionTech="REACT NATIVE | REACT NAVIGATION | EXPO | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY | UX/UI"
-            reference="https://expo.io/@lumenbarron/example"
-          /> */}
-
-
-
         </section>
       </section>
     );
   }
 }
+
+          //   {/* <ImagesWhite
+          //   idBtn="bikely-image"
+          //   titleProject="BIKELY"
+          //   descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
+          //    bike or repair it; Bikely app shows the stores near your location."
+          //   descriptionTech="REACT NATIVE | REACT NAVIGATION | EXPO | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY | UX/UI"
+          //   reference="https://expo.io/@lumenbarron/example"
+          // /> */}
