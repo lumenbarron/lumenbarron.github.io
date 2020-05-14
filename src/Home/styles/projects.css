@@ -23,7 +23,7 @@
 
 .project-container-info {
   font-size: 0.9rem;
-  height: 26rem;
+  height: 28rem;
   width: 100%;
   /*Flexbox */
   display: flex;
@@ -41,6 +41,10 @@
 
 .il-piccolo {
   background: #f3914f;
+}
+
+.vitalinea{
+  background: #F1CDDD;
 }
 
 .project-images {
@@ -120,16 +124,23 @@
 }
 
 #bikely-image {
-  background-image: url("../Images/bikely.gif");
+  background-image: url("../Images/BIKELY.jpg");
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   width: 100%;
 }
 
 #vitalinea-image {
-  background-image: url("../Images/vitalinea.jpg");
+  background-image: url("../Images/vitalinea2.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  width: 100%;
+}
+
+#lms-image {
+  background-image: url("../Images/lms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 

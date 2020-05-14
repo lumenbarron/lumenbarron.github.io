@@ -32,12 +32,31 @@ export class Projects extends React.Component {
           />
 
             <ImagesWhite
+            idBtn="lms-image"
+            titleProject="EL IDIOMA DE LAS MANOS"
+            descriptionProject="In Mexico there are approximately 2.4 million deaf people, most of whom do not have schooling from LSM, which stands
+             for Lenguaje de Señas Mexicano. This MVP is developed for teaching LSM through games and repetition."
+            descriptionTech="REACT JS | HTML5 | CSS3 | WIREFRAME | SCRUM | GIT | GITHUB | UX/UI | BOOTSTRAP FRAMEWORK"
+            reference="https://elenasilvana.github.io/TalentFestGDL002/#/"
+          />
+
+            <ImagesColor
+            backgroundColor = "project-container-info hide vitalinea"
             idBtn="vitalinea-image"
             titleProject="VITALINEA"
             descriptionProject="Do you know the best way to take care of your health is through the food? The new Vitalinea yogurt
-             is your best option because it's not only delicious, it's also sugar-free."
+            is your best option because it's not only delicious, it's also sugar-free."
             descriptionTech="REACT JS | HTML5 | CSS3 | WIREFRAME | SCRUM | GIT | GITHUB | UX/UI | BOOTSTRAP FRAMEWORK"
             reference="https://lumenbarron.github.io/vitalinea-app/"
+          />
+
+           <ImagesWhite
+            idBtn="bikely-image"
+            titleProject="BIKELY"
+            descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
+             bike or repair it; Bikely app shows the stores near your location."
+            descriptionTech="VUE JS | FIREBASE AUTHENTICATION | HTML5 | CSS3 | SCRUM |KANBAN | GIT | GITHUB | UX/UI | BOOTSTRAP FRAMEWORK"
+            reference="https://lumenbarron.github.io/bikely-web-app/"
           />
 
             <ImagesColor
@@ -83,12 +102,3 @@ export class Projects extends React.Component {
     );
   }
 }
-
-          //   {/* <ImagesWhite
-          //   idBtn="bikely-image"
-          //   titleProject="BIKELY"
-          //   descriptionProject="Imagine that you're biking and have an unexpected event. You need to change some piece of your
-          //    bike or repair it; Bikely app shows the stores near your location."
-          //   descriptionTech="REACT NATIVE | REACT NAVIGATION | EXPO | SCRUM |KANBAN | GIT | GITHUB | AGILE METHODOLOGY | UX/UI"
-          //   reference="https://expo.io/@lumenbarron/example"
-          // /> */}
