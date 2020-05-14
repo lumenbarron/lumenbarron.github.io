@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb2073502361e20d2cf90acccd5688e5",
+    "revision": "2f9bc68fdd6a61a05be47baa3a535cf7",
     "url": "/index.html"
   },
   {
-    "revision": "b954bc6795611a92a132",
-    "url": "/static/css/main.5b5d0765.chunk.css"
+    "revision": "db7876458cd687b5879a",
+    "url": "/static/css/main.e6fbf77e.chunk.css"
   },
   {
     "revision": "2e372c46464791061147",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.389ed403.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b954bc6795611a92a132",
-    "url": "/static/js/main.c18a3491.chunk.js"
+    "revision": "db7876458cd687b5879a",
+    "url": "/static/js/main.3bf6a4c9.chunk.js"
   },
   {
     "revision": "4fba741fb7176f89c72d",
     "url": "/static/js/runtime-main.ac97a943.js"
+  },
+  {
+    "revision": "50c7b2b83b242bcafb4b9ddb715eafe2",
+    "url": "/static/media/BIKELY.50c7b2b8.jpg"
   },
   {
     "revision": "bf6f5f7df3d3d7ce03b82108677610e2",
@@ -32,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/banner-web-lucy.ab94ba31.jpg"
   },
   {
-    "revision": "71ce40b60eaef3df073ea5e128b0fe34",
-    "url": "/static/media/bikely.71ce40b6.gif"
-  },
-  {
     "revision": "0f288f6b101752e154fda717d69a5cbb",
     "url": "/static/media/foodmap-gif.0f288f6b.gif"
   },
   {
     "revision": "b1bd463f8ffd99531a33ed2b90b29b26",
     "url": "/static/media/il-piccolo.b1bd463f.png"
+  },
+  {
+    "revision": "04e625cb298140d2d51a230f54b90334",
+    "url": "/static/media/lms.04e625cb.jpg"
   },
   {
     "revision": "39b1da16042a04e351fa3bcee5632266",
@@ -64,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/starbucks.7cd0d14c.gif"
   },
   {
-    "revision": "888f5a0c1a000c125b95b9f2726eed60",
-    "url": "/static/media/vitalinea.888f5a0c.jpg"
+    "revision": "3fb856ae1597c511fd0b5c057bf238fe",
+    "url": "/static/media/vitalinea2.3fb856ae.jpg"
   }
 ]);

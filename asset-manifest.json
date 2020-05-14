@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b5d0765.chunk.css",
-    "main.js": "/static/js/main.c18a3491.chunk.js",
-    "main.js.map": "/static/js/main.c18a3491.chunk.js.map",
+    "main.css": "/static/css/main.e6fbf77e.chunk.css",
+    "main.js": "/static/js/main.3bf6a4c9.chunk.js",
+    "main.js.map": "/static/js/main.3bf6a4c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ac97a943.js",
     "runtime-main.js.map": "/static/js/runtime-main.ac97a943.js.map",
     "static/js/2.389ed403.chunk.js": "/static/js/2.389ed403.chunk.js",
     "static/js/2.389ed403.chunk.js.map": "/static/js/2.389ed403.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c0b1c3785a062cb0cf90a00a2857ea15.js": "/precache-manifest.c0b1c3785a062cb0cf90a00a2857ea15.js",
+    "precache-manifest.55df730e9073af49dcb5de0068fb6676.js": "/precache-manifest.55df730e9073af49dcb5de0068fb6676.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5b5d0765.chunk.css.map": "/static/css/main.5b5d0765.chunk.css.map",
+    "static/css/main.e6fbf77e.chunk.css.map": "/static/css/main.e6fbf77e.chunk.css.map",
     "static/js/2.389ed403.chunk.js.LICENSE.txt": "/static/js/2.389ed403.chunk.js.LICENSE.txt",
+    "static/media/projects.css": "/static/media/vitalinea2.3fb856ae.jpg",
     "static/media/home.css": "/static/media/banner-mobile-lucy.bf6f5f7d.jpg",
     "static/media/header.css": "/static/media/banner-web-lucy.ab94ba31.jpg",
-    "static/media/projects.css": "/static/media/vitalinea.888f5a0c.jpg",
     "static/media/nav.css": "/static/media/lucyName.39b1da16.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ac97a943.js",
     "static/js/2.389ed403.chunk.js",
-    "static/css/main.5b5d0765.chunk.css",
-    "static/js/main.c18a3491.chunk.js"
+    "static/css/main.e6fbf77e.chunk.css",
+    "static/js/main.3bf6a4c9.chunk.js"
   ]
 }
